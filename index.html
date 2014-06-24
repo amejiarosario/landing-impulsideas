@@ -144,24 +144,24 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form" method="post" action="http://impulsideas-2014.herokuapp.com/contact_form" accept-charset="UTF-8">
+                    <form role="form" method="post" action="http://impulsideas-2014.herokuapp.com/contact_form.json" accept-charset="UTF-8">
                         <!-- action="POST" url="http://impulsideas-2014.herokuapp.com" -->
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="name">Nombre</label>
-                                <input class="form-control" type="text" name="name" placeholder="Nombre">
+                                <input class="form-control" type="text" name="contact_form[name]" placeholder="Nombre">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="email">Correo Electrónico</label>
-                                <input class="form-control" type="email" name="email" placeholder="Correo Electrónico">
+                                <input class="form-control" type="email" name="contact_form[email]" placeholder="Correo Electrónico">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="message">Mensaje</label>
-                                <textarea placeholder="Mensaje" class="form-control" rows="5" name="message"></textarea>
+                                <textarea placeholder="Mensaje" class="form-control" rows="5" name="contact_form[message]"></textarea>
                             </div>
                         </div>
                         <br>
