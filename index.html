@@ -144,7 +144,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form">
+                    <form role="form" action="POST" url="http://impulsideas-2014.herokuapp.com/contact_forms" >
+                        <!-- action="POST" url="http://impulsideas-2014.herokuapp.com" -->
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="name">Nombre</label>
@@ -160,7 +161,7 @@
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="message">Mensaje</label>
-                                <textarea placeholder="Mensaje" class="form-control" rows="5"></textarea>
+                                <textarea placeholder="Mensaje" class="form-control" rows="5" name="message"></textarea>
                             </div>
                         </div>
                         <br>
