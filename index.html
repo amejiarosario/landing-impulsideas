@@ -1,238 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Impulsideas</title>
-
+    <title>Landing Page - Start Bootstrap Theme</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/freelancer.css" rel="stylesheet" type="text/css">
-
-    <!-- Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- IE8 support for HTML5 elements and media queries -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="intro-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="intro-message">
+              <h1><img src="img/Impulsideas4.png" height="215.99" width="400"></h1>
+              <hr class="intro-divider">
+              <h3 class="UPV2"><span class="UVP">Ingresos</span>, <span class="UVP">Exposición</span> y <span class="UVP">Contactos</span></h3>
+              <h3 class="UPV3"><span class="UVP">Vende</span> tus productos, <span class="UVP">Desarrolla</span> tus proyectos</h3>
+              <hr class="intro-divider">
+              <p class="interrogante">Interesado en una nueva forma de emprender?</p>
 
-</head>
+              <form class="form-inline" role="form" method="post" action="http://impulsideas-2014.herokuapp.com/contact_form.json" accept-charset="UTF-8">
+                <input type="hidden" name="contact_form[name]" value="Usuario Landing Page">
+                <input type="hidden" name="contact_form[message]" value="Reponder a este usuario y motivarlo">
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-addon">@</div>
+                    <input class="form-control" type="email" name="contact_form[email]" placeholder="Entra tu email">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-default">Impulsa</button>
+              </form>
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+              <ul class="list-inline intro-social-buttons">
+                <li>
+                  <a class="email_dice tsc_social_dice" title="email" href="mailto:info@gapek.com">
+                    <img class="img-responsive" src="img/mail.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a class="facebook_dice tsc_social_dice" title="facebook" href="https://www.facebook.com/impulsideas">
+                    <img class="img-responsive" src="img/facebook.png" alt="">
+                  </a>
+                </li>
+              </ul>
+              <p class="copyright text-muted small">Copyright &copy; Grupo GAPEK 2014. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+      <!-- /.content-section-a -->
+      <div class="banner">
+        <h2 id="titulo2">Comercio Colaborativo</h2>
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <a class="navbar-brand hidden-xs" href="#page-top" style="max-width:300px;margin-top:-10px"><img class="img-responsive" src="img/Impulsideas4.png" alt="" ></a>
-
-                <a class="navbar-brand visible-xs" href="#page-top" style="max-width:200px;"><img class="img-responsive" src="img/Impulsideas4.png" alt="" ></a>
+          <div class="row">
+            <div class="col-lg-6">
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Funcionamiento</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">Nosotros</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contáctanos</a>
-                    </li>
-                </ul>
+            <div class="col-lg-6">
             </div>
-            <!-- /.navbar-collapse -->
+          </div>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- <img class="img-responsive" src="img/impulsideas-500.png" alt=""> -->
-                    <div class="intro-text">
-                        <span class="name">Impulsideas</span>
-                        <hr class="star-light">
-                        <span class="skills">Publica ideas - Levanta fondos - Hazlos realidad</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Como Funciona</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item" style="background:#A65A6A;text-align:center;padding:2%;min-height:380px;">
-                  <span class="fa fa-cogs big-icon" style="font-size:100px;color:#334D5C;"></span>
-                  <h2>Crea</h2>
-                  <p>Crea un proyecto con nosotros. No tienes nada que perder y muchos sueños que alcanzar. </p>
-                  <p><a class="btn btn-primary" href="#" role="button" >Inspírate &raquo;</a></p>
-                </div>
-
-                <div class="col-sm-4 portfolio-item" style="background:#1FA5B5;text-align:center;padding:2%;min-height:380px;">
-                  <span class="fa fa-bullhorn big-icon" style="font-size:100px;color:#E05B49;"></span>
-                  <h2>Comparte</h2>
-                  <p>Dile a tus amigos qué estás haciendo. Crea un video y comparte tus proyectos en tus redes sociales favoritas.</p>
-                  <p><a class="btn btn-primary" href="#" role="button">Comienza &raquo;</a></p>
-                </div>
-
-                <div class="col-sm-4 portfolio-item" style="background:#CCB2A3;text-align:center;padding:2%;min-height:380px;" >
-                  <span class="fa fa-money big-icon" style="font-size:100px;color:#45B39C;"></span>
-                  <h2>Recibe</h2>
-                  <p>Recibe los fondos recaudados para tu proyecto y comienza a hacer tus sueños realidad.</p>
-                  <p><a class="btn btn-primary" href="#" role="button">Gana &raquo;</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Nosotros</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Somos una empresa dominicana que busca impulsar el emprendedurismo en nuestro país. A través de nuestro portal conectamos emprendedores con contribuyentes en cualquier parte del mundo.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>No importa si eres un estudiante que desarrolla su proyecto de tesis, un profesional con una nueva idea o un entusiasta con una invención... ¡Nosotros te conéctamos con personas interesadas en apoyarte a lograr tus sueños!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contáctanos</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form" method="post" action="http://impulsideas-2014.herokuapp.com/contact_form.json" accept-charset="UTF-8">
-                        <!-- action="POST" url="http://impulsideas-2014.herokuapp.com" -->
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="name">Nombre</label>
-                                <input class="form-control" type="text" name="contact_form[name]" placeholder="Nombre">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="email">Correo Electrónico</label>
-                                <input class="form-control" type="email" name="contact_form[email]" placeholder="Correo Electrónico">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="message">Mensaje</label>
-                                <textarea placeholder="Mensaje" class="form-control" rows="5" name="contact_form[message]"></textarea>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-lg btn-success">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Localización</h3>
-                        <p>Santo Domingo
-                            <br>República Dominicana</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>En la Web</h3>
-                        <ul class="list-inline">
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                            </li>                            
-<!--                             <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li> -->
-<!--                             <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-pinterest"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li> -->
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Acerca Impulsideas</h3>
-                        <p>Somos una plataforma de comercio colaborativo para la República Dominicana.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; 2014 - Impulsideas
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+        <!-- /.container -->
+      </div>
     </div>
-
-    <script src="js/jquery-1.10.2.js"></script>
+    <!-- /.banner -->
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-    <script src="js/freelancer.js"></script>
-
-</body>
-
+  </body>
 </html>
