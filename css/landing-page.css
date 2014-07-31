@@ -62,7 +62,7 @@ body {
   text-align: center;
   color: #f8f8f8;
   background: url(../img/CaricaturaImpulsideas.png) no-repeat center center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
 }
 
@@ -225,5 +225,15 @@ p.copyright {
 
   .banner {
     margin: 0px;
+  }
+
+  body {
+    background-size: cover;
+  }
+}
+
+@media(min-width:1200px) {
+  body {
+    background-size: cover;
   }
 }
