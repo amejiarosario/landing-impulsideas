@@ -73,11 +73,32 @@
                 <div class="col-lg-12">
                     <!-- <img class="img-responsive" src="img/impulsideas-500.png" alt=""> -->
                     <div class="intro-text">
-                        <span class="name">Impulsideas</span>
+                        <span class="name">Comercio Colaborativo</span>
                         <hr class="star-light">
-                        <span class="skills">Publica ideas - Levanta fondos - Hazlos realidad</span>
+                        <span class="skills">Vende tus productos - Desarrolla tus proyectos</span>
                     </div>
                 </div>
+            </div>
+            <br><br>
+            <div class="row">
+            <div class="col-sm-4"></div>
+
+            <div class="col-sm-4">
+    <form class="form-inline" role="form" method="post" action="http://impulsideas-2014.herokuapp.com/contact_form.js" accept-charset="UTF-8">
+              <input type="hidden" name="contact_form[name]" value="Nuevo Prospecto (Impulsideas Landing Page)">
+              <input type="hidden" name="contact_form[message]" value="Responder a este usuario y motivarlo.">
+              <input type="hidden" name="contact_form[recipients]" value="email@impulsideas.com">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">@</div>
+                  <input class="form-control" type="email" name="contact_form[email]" placeholder="Entra tu email">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-default" id="boton">Regístrate</button>
+            </form> 
+
+            </div>
+            <div class="col-sm-4"></div>             
             </div>
         </div>
     </header>
@@ -94,22 +115,22 @@
                 <div class="col-sm-4 portfolio-item" style="background:#A65A6A;text-align:center;padding:2%;min-height:380px;">
                   <span class="fa fa-cogs big-icon" style="font-size:100px;color:#334D5C;"></span>
                   <h2>Crea</h2>
-                  <p>Crea un proyecto con nosotros. No tienes nada que perder y muchos sueños que alcanzar. </p>
-                  <p><a class="btn btn-primary" href="#" role="button" >Inspírate &raquo;</a></p>
+                  <p>Crea una campaña para tu idea. Inserta tus productos en nuestra plataforma para aumentar las ventas mientras apoyas ideas!</p>
+                  <!-- <p><a class="btn btn-primary" href="#" role="button" >Inspírate &raquo;</a></p> -->
                 </div>
 
                 <div class="col-sm-4 portfolio-item" style="background:#1FA5B5;text-align:center;padding:2%;min-height:380px;">
                   <span class="fa fa-bullhorn big-icon" style="font-size:100px;color:#E05B49;"></span>
                   <h2>Comparte</h2>
-                  <p>Dile a tus amigos qué estás haciendo. Crea un video y comparte tus proyectos en tus redes sociales favoritas.</p>
-                  <p><a class="btn btn-primary" href="#" role="button">Comienza &raquo;</a></p>
+                  <p>Promueve tus proyectos y productos. Gana exposición comunicando tu valor.</p>
+                  <!-- <p><a class="btn btn-primary" href="#" role="button">Comienza &raquo;</a></p> -->
                 </div>
 
                 <div class="col-sm-4 portfolio-item" style="background:#CCB2A3;text-align:center;padding:2%;min-height:380px;" >
                   <span class="fa fa-money big-icon" style="font-size:100px;color:#45B39C;"></span>
                   <h2>Recibe</h2>
-                  <p>Recibe los fondos recaudados para tu proyecto y comienza a hacer tus sueños realidad.</p>
-                  <p><a class="btn btn-primary" href="#" role="button">Gana &raquo;</a></p>
+                  <p>Recibe los ingresos logrados y comienza a hacer tus proyectos realidad.</p>
+                  <!-- <p><a class="btn btn-primary" href="#" role="button">Gana &raquo;</a></p> -->
                 </div>
             </div>
         </div>
@@ -125,16 +146,16 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Somos una empresa dominicana que busca impulsar el emprendedurismo en nuestro país. A través de nuestro portal conectamos emprendedores con contribuyentes en cualquier parte del mundo.</p>
+                    <p>Somos una empresa dominicana que busca impulsar el emprendedurismo en nuestro país. Conectamos emprendedores con contribuyentes en cualquier parte del mundo.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>No importa si eres un estudiante que desarrolla su proyecto de tesis, un profesional con una nueva idea o un entusiasta con una invención... ¡Nosotros te conéctamos con personas interesadas en apoyarte a lograr tus sueños!</p>
+                    <p>¡Te conéctamos con personas interesadas en apoyarte a lograr tus sueños!</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact">
+<!--     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -145,7 +166,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <form role="form" method="post" action="http://impulsideas-2014.herokuapp.com/contact_form.json" accept-charset="UTF-8">
-                        <!-- action="POST" url="http://impulsideas-2014.herokuapp.com" -->
+                        - action="POST" url="http://impulsideas-2014.herokuapp.com"
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="name">Nombre</label>
@@ -174,47 +195,18 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Localización</h3>
-                        <p>Santo Domingo
-                            <br>República Dominicana</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>En la Web</h3>
-                        <ul class="list-inline">
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                            </li>                            
-<!--                             <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li> -->
-<!--                             <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-pinterest"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li> -->
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Acerca Impulsideas</h3>
-                        <p>Somos una plataforma de comercio colaborativo para la República Dominicana.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         Copyright &copy; 2014 - Impulsideas
                     </div>
+      <a href="https://www.facebook.com/impulsideas" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+      <a href="mailto:email@impulsideas.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
                 </div>
             </div>
         </div>
